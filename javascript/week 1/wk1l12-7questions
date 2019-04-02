@@ -1,0 +1,14 @@
+1.  Numbers appear.
+2.  There's no distance.  An array starts with 0.
+3.  Printed the assigned index of 3.
+4.  Numbers of Bars/Friends pairs.
+5.  Bars and Friends become undefined, rounding down to its nearest integer.  It will not be rounded if the number is an interger.
+6.  It's a built-in object including mathematical constants and functions that doesn't need to be created before using it.
+7.  Cannot be printed, because it does not have an associated bar.
+
+Bonus!
+
+1.  Added:  var randomNumberFriends = Math.floor(Math.random() * friends.length); 
+2.  (37) var friendname = friends[randomNumberFriends]; 
+
+

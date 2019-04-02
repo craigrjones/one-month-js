@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Where shall we go for dinner!?">
+		<meta name="keywords" content="dinner, edinburgh">
+
+		<title>Happy Hour</title>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<script>
+		
+			// Our List of Resturants in Edinburgh
+			var resturants = [
+				'Domenicos',
+				'Illegal Jacks',
+				'Las Iguanas  ',
+				'Bread Meats Bread',
+				'1926',
+				'Mash Bar'
+			];
+
+			// Areas in Edinburgh
+			var town = [
+				'Leith',
+				'Southside',
+				' on George Street',
+				'on Lothian Road',
+				'Dalry',
+				'The West End'
+			];
+
+			var randomNumber = Math.floor(Math.random()*resturants.length);
+			
+
+		//document.write(randomNumber);
+			var resturantname = resturants[randomNumber];
+			var townpart = town[randomNumber];
+
+			document.write("How about we go to <strong>" + resturantname + "</strong> in <strong>" + townpart + "</strong>?");
+		
+		</script>
+	</head>
+	<body>
+		<!-- PAGE CONTENT WILL BE PRINTED HERE --> 
+	</body>
+</html>
